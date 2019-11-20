@@ -1,4 +1,4 @@
-// ~/Blog/djr/FRONTEND/src/query.js
+// djr/FRONTEND/src/query.js
 
 //import our graph query parser
 import gql from "graphql-tag";

@@ -1,6 +1,7 @@
-// ~/Blog/djr/FRONTEND/src/App.js
+// djr/FRONTEND/src/App.js
 import React from "react";
 import { Route, Switch, Link } from "react-router-dom"
+
 // import Apollo framework query hook
 import { useQuery } from '@apollo/react-hooks'; // New
 import "./App.css"
