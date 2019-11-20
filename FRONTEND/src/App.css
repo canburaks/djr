@@ -1,0 +1,114 @@
+/* ~/Blog/djr/FRONTEND/src/App.css  */
+
+html, body {
+    width:100vw;
+    overflow-x: hidden;
+    height:auto;
+    min-height: 100vh;
+    margin:0;
+}
+
+.App {
+    position: absolute;
+    left:0;
+    right:0;
+    display: flex;
+    min-width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #181818;
+    /*font-family: "Open Sans", sans-serif;*/
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* MAIN PAGE */
+.main-page {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    background-color: #3f3e3e;
+    margin:10vh 5vw;
+    border-radius: 6px;
+}
+
+/* MOVIE CARD */
+.movie-card {
+    position: relative;
+    width:168px;
+    height:auto;
+    background: #f1f1f1;
+    border-radius: 6px;
+    margin:16px;
+    box-shadow: 0 12px 12px -4px rgba(0,0,0, 0.4);
+}
+.movie-card:hover {
+    box-shadow: 0 12px 18px 4px rgba(0,0,0, 0.8);
+
+}
+.movie-card-image {
+    width:168px;
+    height:264px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.movie-card-name {
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+    font-weight: bold;
+}
+.movie-card-link {
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+
+/* MOVIE PAGE */
+.back-button {
+    position: absolute;
+    left:10px;
+    top:10px;
+    width:120px;
+    padding: 8px 16px;
+    text-align: center;
+    background: #f1f1f1;
+    color:black;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.movie-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    margin:10vh 10vw;
+    border-radius: 6px;
+}
+
+.movie-page-box {
+    position: relative;
+    display: flex;
+    height:352px;
+    background-color: #f1f1f1;
+}
+.movie-page-image {
+    width:280px;
+    height:352px;
+}
+.movie-page-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:352px;
+    width: auto;
+    max-width: 400px;
+    padding: 16px 32px;
+}
